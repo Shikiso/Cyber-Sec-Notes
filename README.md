@@ -9,7 +9,7 @@ I used notepad...
 
 ## Industry
 Information on frameworks, standards and projects
-*[Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
+* [Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
 * [ISO 27001](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/ISO%2027001.md)
 * [Project Management](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/Project%20Management.md)
 * [Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)

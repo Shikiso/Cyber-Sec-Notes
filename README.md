@@ -5,17 +5,14 @@ I used notepad...
 
 ## Data Analysis
 (not much in here...)
-* [Splunk Syntax]()
+* [Splunk Syntax](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Data%20Analysis/Splunk.md)
 
 ## Industry
-<<<<<<< HEAD
 Information on frameworks, standards and projects
 *[Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
 * [ISO 27001](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/ISO%2027001.md)
 * [Project Management](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/Project%20Management.md)
-=======
 * [Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
->>>>>>> a10e692dc2693c10c39e85e3cb10b4aa604748c8
 
 ## Network
 Information on protocols, VPN, addressing, etc

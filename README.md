@@ -7,7 +7,7 @@ I used notepad...
 (not much in here...)
 
 ## Industry
-*[Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
+* [Governance, Risk and Compliance](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Industry/GRC.md)
 
 ## Network
 

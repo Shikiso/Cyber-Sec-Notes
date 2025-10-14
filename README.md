@@ -6,6 +6,7 @@ I used notepad...
 ## Data Analysis
 (not much in here...)
 * [Splunk Syntax](https://github.com/Shikiso/Cyber-Sec-Notes/blob/main/Data%20Analysis/Splunk.md)
+* [SQL - Will add more as I use it more](Data Analysis/SQL.md)
 
 ## Industry
 Information on frameworks, standards and projects

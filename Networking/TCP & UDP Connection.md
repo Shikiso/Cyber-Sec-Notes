@@ -48,7 +48,7 @@ the addition re-transmitted segments can make the congestion even worse.
 If the source determines that TCP segments are not being acknowledged or acknowledged in a timely manner,
 than is can reduce the number of bytes being sent before receiving an acknowledgement.
 
-![[/TCP_HEADER_IMG.png]]
+![](/Images/TCP_HEADER_IMG.png)
 ## UDP
 UDP is another communication link that devices used to communicate with one another. However UDP is not reliable it does not check if data is received or is has data missing. All UDP cares about is sending data as quickly as possible. This makes it very good for services such as streaming or online gaming. There is no connection sequence like TCP the server simply sends data to the client.
 

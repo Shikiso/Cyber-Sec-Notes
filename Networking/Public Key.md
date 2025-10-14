@@ -16,9 +16,9 @@ There are three Digital Signature Standard (DSS) algorithms that are used for ge
 Bob is confirming an order with Alice. Alice is ordering from Bob’s website. Alice has connected with Bob’s website, and after the certificate has been verified, the Bob’s certificate is stored on Alice’s website. The certificate contains Bob’s public key. The public key is used to verify the Bob’s digital signature.
 
 (Refer to the figure to see how the digital signature is used).
-![[/digital_signature_1.png]]
+![](/Images/digital_signature_1.png)
 When Alice receives the digital signature, the following process occurs.
-![[/digital_signature_2.png]]
+![](/Images/digital_signature_2.png)
 
 # Authorities and PKI Trust System
 ## Public Key Management
@@ -33,7 +33,7 @@ Think of it like a drivers license. The government issues you one and everyone t
 ## Public Key Infrastructure (PKI)
 PKI is used to support large-scale distribution and identification of public encryption keys.
 Here is an example of a PKI certificate being used:
-![[/PKI.png]]
+![](/Images/PKI.png)
 (Not all PKI certificates are directly received from a CA. A registration authority (RA) is a subordinate CA and is certified by a root CA to issue certificates for specific uses.)
 
 ## Authorities System

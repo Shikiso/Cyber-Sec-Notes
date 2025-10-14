@@ -17,7 +17,7 @@ AD DS schema is the blueprint for an [Active Directory](https://www.google.com/s
 
 ## AD DS Forest
 A forest is multiple domain servers grouped together.
-![[/forest.png]]
+![](/Images/forest.png)
 
 ## AD DS Domain
 AD DS requires one or more domain controllers.
@@ -62,4 +62,4 @@ The result of DNS queries for domain controllers are returned in this order:
 4. DC grants access
 5. Client uses TGT to apply for server access
 6. DC returns access
-![[/AD_DS_sign_in.png]]
+![](/Images/AD_DS_sign_in.png)

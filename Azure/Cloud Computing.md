@@ -50,7 +50,7 @@ Provide an environment for building, testing and deploying software applications
 Users connect to and use cloud-based apps over the internet: for example, Microsoft Office 365, email and calendars.
 
 ## Shared Responsibility Model
-![[Pasted image 20251014184755.png]]
+![[/shared_responsibility_model.png]]
 
 # Cloud Service Comparison
 | IaaS                                                        | PaaS                                                  | SaaS                                                         |

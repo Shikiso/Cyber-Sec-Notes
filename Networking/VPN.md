@@ -10,12 +10,12 @@ A site-to-site VPN is created when VPN terminating devices (also called VPN gate
 - Traffic is only encrypted between devices
 - Internal hosts have no idea that a VPN is being used
 
-![[Pasted image 20251009223704.png]]
+![[/VPN2.png]]
 
 ## Remote-Access
 A remote-access VPN is dynamically created to establish a secure connection between a client and a VPN terminating device.
 Example: A remote access SSL VPN is used when you check your banking information online.
-![[Pasted image 20251009222752.png]]
+![[/VPN1.png]]
 
 ## Secure Socket Layer (SSL)
 SSL uses public key infrastructure and digital certificates to authenticate peers.

@@ -17,7 +17,7 @@ AD DS schema is the blueprint for an [Active Directory](https://www.google.com/s
 
 ## AD DS Forest
 A forest is multiple domain servers grouped together.
-![[Pasted image 20250925195248.png]]
+![[/forest.png]]
 
 ## AD DS Domain
 AD DS requires one or more domain controllers.
@@ -32,10 +32,6 @@ OUs are containers to group objects within a domain.
 Create OUs to:
 - Configure objects by assigning GPOs to them
 - Delegate administrative permissions
-
-## Azure AD
-A cloud-based identity and access management (IAM) solution that helps organizations manage user access to applications and data in the cloud and on-premises environments.
-![[Pasted image 20250925200238.png]]
 
 ## Domain Controller
 Servers that host the AD DS database (Ntds.dit) and SYSVOL
@@ -66,4 +62,4 @@ The result of DNS queries for domain controllers are returned in this order:
 4. DC grants access
 5. Client uses TGT to apply for server access
 6. DC returns access
-![[Pasted image 20250925202846.png]]
+![[/AD_DS_sign_in.png]]

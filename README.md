@@ -48,6 +48,6 @@ Information on protocols, VPN, addressing, etc
 * [Windows Server Update Service](/Windows%20Server/WSUS.md)
 ## Azure
 - [Active Directory](Azure/Azure%20AD.md)
-- [Cloud Computing](/Azue/Cloud%20Computing.md)
+- [Cloud Computing](/Azure/Cloud%20Computing.md)
 - [Cloud Shell](/Azure/Cloud%20Shell.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)

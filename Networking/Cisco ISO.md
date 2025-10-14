@@ -274,3 +274,19 @@ By default all traffic from vlans in the database is forwarded out the trunk por
 	- interface {interface} {number}
 	- switchport trunk allowed vlan {n1,n2}
 	- switchport trunk allowed vlan add {n} (to add after setting, can also use remove)
+## AAA
+Config new AAA log
+	- aaa new-model
+
+Set AAA as log | "local-case" uses case sensitive usernames
+	- aaa authentication login <default/SSH-METHOD> local-case
+
+Create username and password locally
+	- username <name> algorithm-type scrypt secret <pass>
+
+Set AAA log method for vty
+	- line vty <lines>
+	- login authentication <default/SSH-METHOD>
+
+Apply max limit for pass
+	- aaa local authentication attempts max-fail <amount>

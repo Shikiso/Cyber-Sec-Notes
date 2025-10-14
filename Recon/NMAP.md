@@ -3,14 +3,14 @@ Just know that NSE (NMAP Script Execution ) is a thing and that the
 scripts can be found on the website or /usr/share/nmap/scripts/ 
 
 ## Common scans 
-TCP Connect Scans -sT
-SYN Scans -sS 
-UDP Scans -sU
-TCP Null Scans -sN 
-TCP FIN Scans -sF 
-TCP Xmas Scans -sX
+TCP Connect Scans `-sT`
+SYN Scans `-sS`
+UDP Scans `-sU`
+TCP Null Scans `-sN`
+TCP FIN Scans `-sF`
+TCP Xmas Scans `-sX`
 
-Use -sn if you are only interested in host-discovery without port-scanning.
+Use `-sn` if you are only interested in host-discovery without port-scanning.
 
 ## Stealth scan/TCP SYN scan
 A stealth scan is just a tcp connection that doesn't fully
@@ -35,45 +35,45 @@ Xmas scans send a malformed TCP packet and expects again RST
 reply is the port is closed.
 
 ## Firewall Evasion #
-You can use -Pn to not ping the host treating the target as alive.
+You can use `-Pn` to not ping the host treating the target as alive.
 This will take ages tho.
 
 If you're already on a local network NMAP can use ARP requests to find activity.
 
 Some other switches are:
-  -f Fragments the packets
-  --scan-delay {time} adds delay
-  --badsum generates invalid checksum for actions, most TCP/IP stacks will drops this 
+  `-f` Fragments the packets
+  `--scan-delay {time}` adds delay
+  `--badsum` generates invalid checksum for actions, most TCP/IP stacks will drops this 
   but firewalls may respond automatically.
 
-To avoid IDS alerts consider -T0 or -T1.
+To avoid IDS alerts consider `-T0` or `-T1`.
 Theses scan one port at a time and wait 5 min between each probe.
 
-You can control the packet rate using --min-rate {number} or --max-rate {number}.
+You can control the packet rate using `--min-rate {number}` or `--max-rate {number}`.
 
-You can control probing parallelization using --min-parrallelism={number} or --max-parrallelism={number}
+You can control probing parallelization using `--min-parrallelism={number}` or `--max-parrallelism={number}`
 
 ## TCP & UDP
 #### SYN
 You can send packets with the SYN flag set to a TCP port and if you get a SYN/ACK reply you know the port is open.
 
-nmap -PS21 127.0.0.1
+`nmap -PS21 127.0.0.1`
 
-specific port  -PS{port}
-port range -PS{port}-{port}
-multiple ports -PS{port},{port}
+specific port  `-PS{port}`
+port range `-PS{port}-{port}`
+multiple ports `-PS{port},{port}`
 
 #### ACK
 This sends a packet with an ACK flag. You must be running NMAP as a privileged users. By default port 80 will be used but you can change the port same as SYN scan.
 
-namp -PA{port} -sn 127.0.0.1
+`namp -PA{port} -sn 127.0.0.1`
 
-specific port  -PA{port}
-port range -PA{port}-{port}
-multiple ports -PA{port},{port}
+specific port  `-PA{port}`
+port range `-PA{port}-{port}`
+multiple ports `-PA{port},{port}`
 
 ### TCP Connect Scan
-nmap -sT 127.0.0.1
+`nmap -sT 127.0.0.1`
 Works by completing the TCP 3-way handshake.
 Needs to be ran as sudo.
 The connection is torn as soon as its state is confirmed by sending a RST/ACK.
@@ -81,23 +81,23 @@ The connection is torn as soon as its state is confirmed by sending a RST/ACK.
 ### UDP
 Sending a UDP packet to an open port will not lead to any expected reply. However if the port is closed we will get a ICMP port unreachable packet.
 
-To send a normal UPD packet use -sU
+To send a normal UPD packet use `-sU`
 
 To do a port scan on UDP:
-namp -PU{port} -sn 127.0.0.1
+`namp -PU{port} -sn 127.0.0.1`
 
-specific port  -PU{port}
-port range -PU{port}-{port}
-multiple ports -PU{port},{port}
+specific port  `-PU{port}`
+port range `-PU{port}-{port}`
+multiple ports `-PU{port},{port}`
 
 ## Reverse-DNS lookup
 By default NMAP uses reverse-DNS online hosts.
-If you don't want to send such DNS queries you can use -n.
-If you want to look up online hosts you can use -R to query the DNS server even for offline hosts. To use a specific DNS server you can add the --dns-servers {server name}
+If you don't want to send such DNS queries you can use `-n`.
+If you want to look up online hosts you can use `-R` to query the DNS server even for offline hosts. To use a specific DNS server you can add the `--dns-servers {server name}`
 
 ## ARP
 An ARP scan is only possible if you are on the same subnet as the target system.
-To perform a ARP scan using NMAP you want to use the -PR option
+To perform a ARP scan using NMAP you want to use the `-PR` option
 
 ## Port States
 1. **Open**: indicates that a service is listening on the specified port.

@@ -70,4 +70,4 @@ WSUS troubleshooting
 Clients not appearing in WUS:	Check GPO and client settings
 when WSUS server stops:		Check db server, reinstall WSUS
 Cannot connect to WSUS:		Check net connectivity, telent to http/s ports
-Other problems:			Server/client diagnostics tool
+Other problems:			                Server/client diagnostics tool

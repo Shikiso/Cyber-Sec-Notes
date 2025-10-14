@@ -11,9 +11,7 @@ I used notepad...
 ## Industry
 Information on frameworks, standards and projects
 * [Governance, Risk and Compliance](/Industry/GRC.md)
-* [ISO 27001](/Industry/ISO%2027001.md)
 * [Project Management](/Industry/Project%20Management.md)
-* [Governance, Risk and Compliance](/Industry/GRC.md)
 
 ## Network
 Information on protocols, VPN, addressing, etc

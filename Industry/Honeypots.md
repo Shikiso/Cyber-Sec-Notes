@@ -5,4 +5,4 @@ In the event of an attack, if the attack was undetected by protective devices su
 
 Once the honeypot is attacked it will send its logs to a server (for instance Splunk) which will have preconfigured alerts letting the analysts know they have a breach. The analysts can then work backwards to find the threat.
 
-![](https://www.youtube.com/watch?v=gI8LnMAhBv8)
+(https://www.youtube.com/watch?v=gI8LnMAhBv8)

@@ -7,6 +7,7 @@ I used notepad...
 (not much in here...)
 * [Splunk Syntax](/Data%20Analysis/Splunk.md)
 * [SQL - Will add more as I use it more](/Data%20Analysis/SQL.md)
+* [HoneyPots](/Industry/Honeypots.md)
 
 ## Industry
 Information on frameworks, standards and projects

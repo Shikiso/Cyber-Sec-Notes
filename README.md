@@ -24,7 +24,6 @@ Information on protocols, VPN, addressing, etc
 * [IP Address & Subnets](/Networking/IP%20Addressing%20and%20Subnets.md)
 * [Data Link | Layer 2](/Networking/Layer%202%20-%20Data%20Link.md)
 * [Network | Layer 3](/Networking/Layer%203%20-%20Network.md)
-* [NMAP](NMAP.md)
 * [OSI + TCP IP Models](/Networking/OSI%20%26%20TCP%20IP%20Models.md)
 * [Ports](/Networking/Ports.md)
 * [Protocols](/Networking/Protocols.md)
@@ -50,3 +49,8 @@ Information on protocols, VPN, addressing, etc
 - [Cloud Computing](/Azure/Cloud%20Computing.md)
 - [Cloud Shell](/Azure/Cloud%20Shell.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)
+
+## Recon
+#### Network
+- [NMAP](/Recon/NMAP.md)
+- [Airmon-ng](/Recon/Airmon.mg)

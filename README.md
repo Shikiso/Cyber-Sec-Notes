@@ -37,7 +37,7 @@ Information on protocols, VPN, addressing, etc
 ## Windows Server (AD)
 * [Windows Server 2022](/Windows%20Server/Windows%20Server%202022.md)
 * [DHCP](/Windows%20Server/DHCP.md)
-* [Domain Controllers](/Windows%20Server/Domain%20Controllers.md)
+* [Active Directory Domain Services](Active%20Directory%20Domain%20Services.md)
 * [Hyper-V](/Windows%20Server/Hyper-V.md)
 * [Managing Objects Active Direcotry Domain Service](/Windows%20Server/Managing%20objects%20in%20AD%20DS.md)
 * [Monitoring](/Windows%20Server/Monitoring.md)

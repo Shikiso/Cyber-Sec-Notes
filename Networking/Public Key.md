@@ -49,3 +49,12 @@ CAs use different classes when providing a certificate. 0 being the least truste
 | 5     | Used for private organisations or government security.                                                                   |
 
 ## Trust System
+PKIs can form different typologies of trust. The simplest is the single-root PKI topology.
+![[/Images/single-root_pki.png]]
+On larger network PKI CAs may be linked using two basic architectures:
+
+**Cross-certified CA topologies** - A peer-to-peer model in which individual CAs establish trust relationships with other CAs by cross-certifying CA certificates.
+![[/Images/corss-certified_ca.png]]
+
+**Hierachical CA** - Highest level CA is called the root. It can issue certificates to end users and to subordinate CA.
+![[/Images/hierachical_ca.png]]

@@ -51,7 +51,7 @@ Information on protocols, VPN, addressing, etc
 - [Cloud Shell](/Azure/Cloud%20Shell.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)
 
-## Recon
-#### Network
-- [NMAP](/Recon/NMAP.md)
-- [Airmon-ng](/Recon/Airmon-ng.md)
+## Tools
+- [NMAP](/Tools/NMAP.md)
+- [Airmon-ng](/Tools/Airmon-ng.md)
+- [Metasploit](/Tools/Metasploit.md)

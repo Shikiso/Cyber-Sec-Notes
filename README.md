@@ -5,7 +5,7 @@ I used notepad...
 
 ## Alternative notes
 https://elhacker.info/ebooks%20Joas/OSCP%20NOTES.pdf
-[Privilege Escalation](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
+![Privilege Escalation](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
 
 ## Data Analysis
 (not much in here...)

@@ -1,3 +1,7 @@
+## Group Policy
+`gpupdate` - Forces immediate Group Policy Refresh
+`gpresult` - Displays which GPO, and settings apply to a user or computer
+## Storage/Partition
 Get available disks:
 Get-Disk | Where-Object PartitionStyle –Eq "RAW"
 

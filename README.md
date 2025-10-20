@@ -43,7 +43,7 @@ Information on protocols, VPN, addressing, etc
 * [Group Policy](/Windows%20Server/Group%20Policy.md)
 * [Monitoring](/Windows%20Server/Monitoring.md)
 * [Powershell Commands](/Windows%20Server/Powershell.md)
-* [Server Storage](/Windows/Storage.md)
+* [Server Storage](/Windows%20Server/Storage.md)
 * [Windows Server Update Service](/Windows%20Server/WSUS.md)
 ## Azure
 - [Active Directory](Azure/Azure%20AD.md)

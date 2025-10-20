@@ -127,4 +127,5 @@ The result of DNS queries for domain controllers are returned in this order:
 4. DC grants access
 5. Client uses TGT to apply for server access
 6. DC returns access
+
 ![](/Images/AD_DS_sign_in.png)

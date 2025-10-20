@@ -119,4 +119,15 @@ A reverse lookup zone resolved IP address to a domain name and hosts start of au
 
 # Configuring Name Resolution Between DNS Zones
 ## Resolving DNS names between Zones
-![](/Images/resolving_dns_zones.png)
+![](/Images/resolving_dns_zones.png)When a DNS name resolves on the internet an entire system of computers is used rather than just a single server. There are hundred of servers on the internet, called root servers which manage the overall practice of DNS resolution.
+
+# DNS Caching
+DNS caching increases the performance of an organizations DNS by decreasing the time it takes to resolve a DNS host name. When a DNS server resolves a DNS name it adds the name to its cache. Over time this builds a cache of domain names and their associated IP addresses for the most common domains that the organization uses.
+
+# DNS Forwarding
+DNS forwarding provides a way for namespaces or resource records not contained in a DNS servers zone to be passed on to another DNS server for resolution. 
+
+### Configuring forwarding 
+You can configure forwarders on a DNS server by using the following steps: 
+1. In the DNS Manager console, right-click the DNS server name, and then click Properties. 
+2. On the Forwarders tab, click Edit, and then add DNS servers that can be used to forward DNS queries for external DNS names.

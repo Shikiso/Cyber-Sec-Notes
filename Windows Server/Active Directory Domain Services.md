@@ -1,4 +1,5 @@
 [Home](/README.md)
+
 AD DS forms the foundation in which networks that run Windows operating systems rely on. The AD DS database stores domain objects, such as user accounts, computing accounts and groups. AD DS provides a searchable, hierarchical directory and method for applying configuration and security settings for objects in the enterprise.
 
 ## AD DS Components

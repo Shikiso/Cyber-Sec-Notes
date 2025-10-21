@@ -23,6 +23,8 @@ Information on frameworks, standards and projects
 Information on protocols, VPN, addressing, etc
 * [AAA](/Networking/AAA.md)
 * [ARP](/Networking/ARP.md)
+* [DNS](/Networking/DNS.md)
+* [Firewalls](/Networking/Firewall.md)
 * [Cisco ISO commands](/Networking/Cisco%20ISO.md)
 * [Cryptography](/Networking/Cryptography.md)
 * [IEE](/Networking/IEE.md)
@@ -60,3 +62,5 @@ Information on protocols, VPN, addressing, etc
 - [NMAP](/Tools/NMAP.md)
 - [Airmon-ng](/Tools/Airmon-ng.md)
 - [Metasploit](/Tools/Metasploit.md)
+- [Wireshark](/Tools/Wireshark.md)
+- [General Tools](/Tools/Smaller%20Tools.md)

@@ -20,16 +20,18 @@ Information on frameworks, standards and projects
 * [Project Management](/Industry/Project%20Management.md)
 
 ## Network
-Information on protocols, VPN, addressing, etc
+Information on protocols, VPN, addressing, websites, etc
 * [AAA](/Networking/AAA.md)
 * [ARP](/Networking/ARP.md)
-* [DNS](/Networking/DNS.md)
-* [Firewalls](/Networking/Firewall.md)
 * [Cisco ISO commands](/Networking/Cisco%20ISO.md)
 * [Cryptography](/Networking/Cryptography.md)
+* [DNS](/Networking/DNS.md)
+* [Definitions](/Networking/Definitions.md)
+* [Data Link | Layer 2](/Networking/Layer%202%20-%20Data%20Link.md)
+* [Firewalls](/Networking/Firewall.md)
+* [HTTP/s](/Networking/HTTPS.md)
 * [IEE](/Networking/IEE.md)
 * [IP Address & Subnets](/Networking/IP%20Addressing%20and%20Subnets.md)
-* [Data Link | Layer 2](/Networking/Layer%202%20-%20Data%20Link.md)
 * [Network | Layer 3](/Networking/Layer%203%20-%20Network.md)
 * [OSI + TCP IP Models](/Networking/OSI%20%26%20TCP%20IP%20Models.md)
 * [Ports](/Networking/Ports.md)
@@ -39,7 +41,6 @@ Information on protocols, VPN, addressing, etc
 * [Routing](/Networking/Routing.md)
 * [TCP & UDP](/Networking/TCP%20%26%20UDP%20Connection.md)
 * [VPN](/Networking/VPN.md)
-* [Definitions](/Networking/Definitions.md)
 
 ## Windows Server (AD)
 * [Windows Server 2022](/Windows%20Server/Windows%20Server%202022.md)

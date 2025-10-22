@@ -1,7 +1,7 @@
 DNS or Domain Name System is responsible for converting domain names into IP addresses. Since people have a hard time remembering numbers and can remember words much easier, when you want to go to a website instead of using the IP address you use the domain name. For example you would enter google.com instead of 142.250.66.206.
 
 # Domain Hierarchy
-![[/Images/domain_hierachy.png]]
+![](/Images/domain_hierachy.png)
 ## Top-Level Domain
 The most right hand part of a domain name. For example in google.com **.com** is the TLD. There are two types of TLD, gTLD (Generic Top Level Domain) and ccTLD (Country Code Top Level Domain).
 

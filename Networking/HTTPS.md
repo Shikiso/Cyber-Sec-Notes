@@ -73,4 +73,4 @@ These are the headers that are returned to the client from the server after a re
 # Cookies
 Cookies are data that is stored on your computing. Cookies are used to remind web servers who you are, for example saving personal settings.
 Here is a HTTP request where a cookie is saved:
-[](/Images/cookie.png)
+![](/Images/cookie.png)

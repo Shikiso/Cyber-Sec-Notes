@@ -4,15 +4,13 @@ They are not final as I am still copying over some notes from when
 I used notepad...
 
 ## Alternative notes
-[OSCP Notes](https://elhacker.info/ebooks%20Joas/OSCP%20NOTES.pdf)
-
-[Privilege Escalation](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
+- [OSCP Notes](https://elhacker.info/ebooks%20Joas/OSCP%20NOTES.pdf)
+- [Privilege Escalation](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
 
 ## Data Analysis
-(not much in here...)
 * [Splunk Syntax](/Data%20Analysis/Splunk.md)
 * [SQL - Will add more as I use it more](/Data%20Analysis/SQL.md)
-* [HoneyPots](/Industry/Honeypots.md)
+* [HoneyPots](/Data%Analysis/Honeypots.md)
 
 ## Industry
 Information on frameworks, standards and projects
@@ -53,6 +51,7 @@ Information on protocols, VPN, addressing, websites, etc
 * [Powershell Commands](/Windows%20Server/Powershell.md)
 * [Server Storage](/Windows%20Server/Storage.md)
 * [Windows Server Update Service](/Windows%20Server/WSUS.md)
+
 ## Azure
 - [Active Directory](Azure/Azure%20AD.md)
 - [Cloud Computing](/Azure/Cloud%20Computing.md)
@@ -65,3 +64,9 @@ Information on protocols, VPN, addressing, websites, etc
 - [Metasploit](/Tools/Metasploit.md)
 - [Wireshark](/Tools/Wireshark.md)
 - [General Tools](/Tools/Smaller%20Tools.md)
+
+## Reconnaissance
+- [Research - Google Operators, vulnerabilities & exploits](/Reconnaissance/Research.md)
+
+## Operating Systems
+- [Linux Commands](/Operating%20Systems/Linux.md)

@@ -16,6 +16,7 @@ The key negotiated in phase 1 enables IKE peers to communicate securely in phase
 
 ## Phase 1
 Two IPsec peers perform initial negotiation of SAs (key). The basic purpose of phase 1 is to negotiate ISAKMP policy, authenticate the peers and set up a secure tunnel between the peers. The tunnel will then be used in Phase 2 to negoitate the IPsec policy, shown in the image.
+
 ![](/Images/negotiate_ipsec_policy.png)
 Phase 1 can be implements in main or aggressive mode. When main mode is used the identities of the two IKE peers are hidden.
 Aggressive mode takes less time than main mode to negotiate keys between peers. However since the authentication hash is sent unencrypted before the tunnel is established aggressive mode is vulnerable to a brute-force attack.

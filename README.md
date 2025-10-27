@@ -32,6 +32,7 @@ Information on protocols, VPN, addressing, websites, etc
 * [IP Address & Subnets](/Networking/IP%20Addressing%20and%20Subnets.md)
 * [IPsec](/Networking/IPSec.md)
 * [IKE](/Networking/IKE.md)
+* [LAN](/Networking/LAN.md)
 * [Network | Layer 3](/Networking/Layer%203%20-%20Network.md)
 * [OSI + TCP IP Models](/Networking/OSI%20%26%20TCP%20IP%20Models.md)
 * [Ports](/Networking/Ports.md)

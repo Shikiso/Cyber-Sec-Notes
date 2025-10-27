@@ -25,7 +25,8 @@ The options are in order of least to most secure, DES, 3DES, AES and SEAL.
 Data Integrity means the data received is the same as the data that was sent. Potentially data could be intercepted and modified. Because of this a hashing algorithm used. (If using SHA use SHA-256 for integrity).
 ![](/Images/ipsec_integrity.png)
 ## Authentication
-Since we need to be secure when using a VPN we must know who is one the other end. ![[ipsec_authentication.png]]
+Since we need to be secure when using a VPN we must know who is one the other end. 
+![[ipsec_authentication.png]]
 This is done by having the local device, the authentication key and identity information sent through a hash algorithm to from the hash for the local peer (Hash_L). If the remote device can independently create the same hash, the local device is authenticated. Once this is done the same happens for the remote device.
 ### PSK Authentication
 ![](/Images/PSK_authentication.png)

@@ -49,7 +49,6 @@ The AH function is applied to the entire packet, except for an IP header fields 
 ![](/Images/ah_process_2.png)
 3. The new packet is transmitted to the IPsec peer router
 4. The peer router hashes the IP header and data payload using the shared secret key, extracts the transmitted hash from the AH header, compares the two hashes.
-5. 
 ![](/Images/ah_process_3.png)
 
 The hashes must match exactly. If one bit is changed in the transmitted packet, the hash output on the received packet changes and the AH header will not match.

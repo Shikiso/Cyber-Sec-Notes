@@ -1,3 +1,5 @@
+## Hybrid Protocol
+A hybrid protocol is a protocol that combines features or techniques from two or more different types of protocols, taking advances of each ones strength.
 ## SMB 
 (Uses TCP)
 Server Message Block Protocol (SMB) is a client-server communication protocol 

@@ -2,65 +2,55 @@ A cloud-based identity and access management (IAM) solution that helps organizat
 
 ![](/Images/azure_ad.png)
 
-# Entra ID
-Entra ID is a cloud-based identity and access management service.
-Entra ID is used for managing identities, enforcing access policies and securing you applications and data in the cloud and on-premises.
+# What is offered
+- Build on trusted platform to advanced your organization with AI and cloud services
+- Manage infrastructure, data, analytics and AI solutions
 
-Entra works as a Microsoft-managed directory service in the cloud.
-Entra ID provides better security when accessing cloud-based resources this is done by providing theses resources:
-- Configuring access to applications
-- Configuring single sign-on (SSO) to cloud-based SaaS applications
-- Managing users and groups
-- Provisioning users
-- Enabling federation between organizations
-- Providing an identity management solution
-- Identifying irregular sign-in activity
-- Configuring multi-factor authentication
-- Extending existing on-premises Active Directory implementations to Microsoft Entra ID
-- Configuring Application Proxy for cloud and local applications
-- Configuring Conditional Access for users and devices
+# Azure Accounts
+To do anything you need an Azure subscription.
+When working with your own applications and business needs you need to create an Azure account, a subscription will then created for you. Once the account is made you are free to create additional subscriptions.
+![](/Images/azure_accounts.png)
 
-# Entra Tenants
-Entra ID is multi-tenant (application servers multiple tenants) and is implemented specifically to ensure isolation between its individual directory instances.
+# Azure infrastructure
+Azure has two main groupings of core architectural components. Physical infrastructure and management infrastructure.
 
-Each Entra tenant is assigned the default DNS domain name consisting of a unique prefix.
+## Physical Infrastructure
+Datacenters form the physical foundation of the Azure cloud platform. As a global cloud provider Azure has datacenters around the work. Individually these datacenters are not accessible. They are grouped into either regions or availability zones which help with reliability.
+## Regions
+A geographical are that contains at least one datacenters that are nearby and networked together with a low-latency network.
+### Region Pairs
+Most regions are paired with another within the same geography. This allows for the replication of resources across a geography that helps reduce the likelihood of interruptions.
+![](/Images/region_pair.png)
+Advantages of region pairs:
+- If an extensive Azure outage occurs, one region out of every pair is prioritized to make sure at least one is restored as quickly as possible for applications hosted in that region pair.
+- Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
+- Data continues to reside within the same geography as its pair (except for Brazil South) for tax- and law-enforcement jurisdiction purposes.
+### Sovereign Regions
+Instances of Azure that are isolated from the main instance of Azure. You may need to use a sovereign region for compliance or legal purposes.
 
-# Entra Schema
-The Entra schema contains fewer object types than AD DS. (It does not include a definition of the computer class).
+Sovereign regions include:
+- US DoD Central, US Gov Virginia, US Gov Iowa and more: These regions are physical and logical network-isolated instances of Azure for U.S. government agencies and partners. These datacenters are operated by screened U.S. personnel and include additional compliance certifications.
+- China East, China North, and more: These regions are available through a unique partnership between Microsoft and 21Vianet, whereby Microsoft doesn't directly maintain the datacenters.
 
-The lack of support for tradition computer domain membership means that you can't use Entra ID to manage computer or user settings by using traditional management techniques such as Group Policy Objects. Entra ID also does not include organizational units.
+## Availability Zones
+Physically separate datacenters within an Azure region.
+Each zone is made up of at least one datacenter.
+Availability zones are set up to be an isolation boundary. Meaning if one goes down the other continues working.
+![](/Images/availability_zones.png)
+Availability zones are primarily used for VMs, managed disks, load balancers and SQL datbase.
+Azure services that support availability zones fall into three categories:
+- Zone services: You ping the resource to a specific zone
+- Zone-redunant services: The platform replicates automatically across zone
+- Non-regional services: Services are always available from Azure geographies.
 
-Entra ID is best at providing directory services; storing and publishing user, device and application data and handling authentication and authorization of users, devices and applications.
+# Management Infrastructure
+This includes Azure resources and resource groups, subscriptions and accounts.
 
-# The difference between Entra ID and AD DS
-| Entra ID                                                                                                                                                                                                | AD DS                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Microsoft Entra ID is primarily an identity solution, and it’s designed for internet-based applications by using HTTP (port 80) and HTTPS (port 443) communications.                                    | AD DS is a true directory service, with a hierarchical X.500-based structure.                 |
-| Microsoft Entra ID is a multi-tenant directory service.<br>                                                                                                                                             | AD DS is a true directory service, with a hierarchical X.500-based structure.                 |
-| Microsoft Entra users and groups are created in a flat structure, and there are no OUs or GPOs.                                                                                                         | AD DS is a true directory service, with a hierarchical X.500-based structure.<br>             |
-| You can't query Microsoft Entra ID by using LDAP; instead, Microsoft Entra ID uses the REST API over HTTP and HTTPS.                                                                                    | AD DS primarily uses the Kerberos protocol for authentication.                                |
-| Microsoft Entra ID doesn't use Kerberos authentication; instead, it uses HTTP and HTTPS protocols such as SAML, WS-Federation, and OpenID Connect for authentication, and uses OAuth for authorization. | AD DS uses OUs and GPOs for management.                                                       |
-| Microsoft Entra ID includes federation services, and many third-party services such as Facebook are federated with and trust Microsoft Entra ID.                                                        | AD DS includes computer objects, representing computers that join an Active Directory domain. |
-|                                                                                                                                                                                                         | AD DS uses trusts between domains for delegated management.                                   |
+## Resources and Resource Groups
+- Resource groups are grouping of resources.
+- Only a single resource can be placed in a group at a time.
+- Groups cannot be nested.
+- When you apply a action to a resource group that action will apply to all the resources in the group.
 
-# Entra ID as a Directory Service for Cloud Apps
-When deploying cloud services you need to have directory services in the cloud to provide authentication and authorization for these services. Because of this each service that needs authentication will create its own Entra tenant.
-
-# Domain Services
-When switching from AD DS to Azure you need to implement a [site-to-site VPN](/Networking/VPN.md) between your local infrastructure and the Azure IaaS.
-
-Because of this Entra Domain Services is provides as an alternative. This service provides domain services such as Group Policy management, domain joining and Kerbose authentication to Entra tenants.
-
-Since Entra ID can integrate with your local AD DS when you implement Entra Connect, users can utilize organizational credentials in both on-premises AD DS and in Entra Domain Services.
-
-Entra Domain Services provides benefits such as:
-- Administrators don't need to manage, update, and monitor domain controllers.
-- Administrators don't need to deploy and manage Active Directory replication.
-- There’s no need to have Domain Admins or Enterprise Admins groups for domains that Microsoft Entra ID manages.
-
-If implementing Entra Domain Services be aware of these limitations:
-- Only the base computer Active Directory object is supported.
-- It’s not possible to extend the schema for the Microsoft Entra Domain Services domain.
-- The organizational unit (OU) structure is flat and nested OUs aren't currently supported.
-- There’s a built-in Group Policy Object (GPO), and it exists for computer and user accounts.
-- It’s not possible to target OUs with built-in GPOs. Additionally, you can't use Windows Management Instrumentation filters or security-group filtering.
+## Subscriptions
+Subscriptions are a unit of management, billing and scale.

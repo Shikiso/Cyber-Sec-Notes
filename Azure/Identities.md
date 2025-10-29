@@ -91,3 +91,37 @@ Used for when environment has on-premises AD footprint and you want capabilities
 |Device sign in options|Password or Windows Hello for Business|
 |Device management|Group Policy, Configuration Manager standalone or co-management with Microsoft Intune|
 |Key capabilities|SSO to both cloud and on-premises resources, Conditional Access, Self-service Password Reset and Windows Hello PIN reset|
+# Custom Security Attributes
+Business specific attributes that you can define and assign to Entra objects.
+These objects can be used to store information, categorize objects or enforce fine grained access controls.
+
+## Why use custom security attributes
+- Extend user profiles, such as add Employee Hire Date and Hourly Salary to all my employees.
+- Ensure only administrators can see the Hourly Salary attribute in my employees' profiles.
+- Categorize hundreds or thousands of applications to easily create a filterable inventory for auditing.
+- Grant users access to the Azure Storage blobs belonging to a project.
+
+## What can I do with custom security attributes?
+- Define business-specific information (attributes) for your tenant.
+- Add a set of custom security attributes on users, applications, Microsoft Entra resources, or Azure resources.
+- Manage Microsoft Entra objects using custom security attributes with queries and filters.
+- Provide attribute governance so attributes determine who can get access.
+
+## Features of custom security attributes
+- Available tenant-wide
+- Include a description
+- Support different data types: Boolean, integer, string
+- Support single value or multiple values
+- Support user-defined free-form values or predefined values
+- Assign custom security attributes to directory synced users from an on-premises Active Directory
+
+# Automatic User Creation/SCIM
+## Components of System for Cross Identity Management
+- **HCM system** - Applications and technologies that enable Human Capital Management process and practices that support and automate HR processes throughout the employee lifecycle.
+- **Microsoft Entra Provisioning Service** - Uses the SCIM 2.0 protocol for automatic provisioning. The service connects to the SCIM endpoint for the application, and uses the SCIM user object schema and REST APIs to automate provisioning and de-provisioning of users and groups.
+- **Microsoft Entra ID** - User repository used to manage the lifecycle of identities and their entitlements.
+- **Target system** - Application or system that has SCIM endpoint and works with the Microsoft Entra provisioning to enable automatic provisioning of users and groups.
+## Why use SCIM
+Open standard protocol for automating the exchange of user identity information between identity domains and IT systems.
+
+SCIM ensures that employees added to the Human Capital Management (HCM) system automatically have accounts created in Entra ID and Windows Server Active Directory

@@ -53,4 +53,12 @@ This includes Azure resources and resource groups, subscriptions and accounts.
 - When you apply a action to a resource group that action will apply to all the resources in the group.
 
 ## Subscriptions
-Subscriptions are a unit of management, billing and scale.
+- Subscriptions are a unit of management, billing and scale.
+- A subscription provides you with access to Azure products and services.
+- Accounts can have multiple subscriptions but are only required to have one.
+
+# Management Groups
+Management groups provide a way to manage subscriptions. Which can then have governance conditions applied to them.
+
+You can build a flexible structure of management groups and subscriptions to organize your resources shown here.
+![](/Images/management_groups.png)

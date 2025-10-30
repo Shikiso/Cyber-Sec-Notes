@@ -57,9 +57,14 @@ Information on protocols, VPN, addressing, websites, etc
 
 ## Azure
 - [Active Directory](Azure/Azure%20AD.md)
+- [RBAC](/Azure/Azure%20RBAC.md)
 - [Cloud Computing](/Azure/Cloud%20Computing.md)
 - [Cloud Shell](/Azure/Cloud%20Shell.md)
+- [Core Components](/Azure/Core%20Components.md)
+- [Entra ID](/Azure/Entra%ID.md)
+- [Identities](/Azure/Identities.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)
+- [Policy Initiatives](/Azure/Policy%20Initiatives.md)
 
 ## Tools
 - [NMAP](/Tools/NMAP.md)

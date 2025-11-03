@@ -21,6 +21,8 @@ Two IPsec peers perform initial negotiation of SAs (key). The basic purpose of p
 Phase 1 can be implements in main or aggressive mode. When main mode is used the identities of the two IKE peers are hidden.
 Aggressive mode takes less time than main mode to negotiate keys between peers. However since the authentication hash is sent unencrypted before the tunnel is established aggressive mode is vulnerable to a brute-force attack.
 
+Think of Phase 1 as setting up the connection using SA over a WAN networking. (This means using WAN interfaces).
+
 (IKE policy and ISAKMP policy are equivalent.)
 
 ## Phase 2 (Quick Mode)
@@ -29,3 +31,5 @@ Phase 2 negotiates the IPsec security parameters that will be used to secure the
 SAs are negotiated by the IKE process ISAKMP on behalf of IPsec, which needs encryption keys for operation. This is done when the SA lifetime expires. A Diffie-Hellman exchange can be performed for addition security.
 
 Quick mode provides Relay Protection through exchange of nonces. A new Diffie-Hellman exchange is created with each Quick Mode.
+
+Phase 2 is everything that is private such as building the routing and network communications between private networks. (Essential LAN to LAN stuff)

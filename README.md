@@ -65,6 +65,7 @@ Information on protocols, VPN, addressing, websites, etc
 - [Identities](/Azure/Identities.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)
 - [Policy Initiatives](/Azure/Policy%20Initiatives.md)
+- For powershell commands check out [Windows OS](/Operating%20Systems/Windows.md)
 
 ## Tools
 - [NMAP](/Tools/NMAP.md)

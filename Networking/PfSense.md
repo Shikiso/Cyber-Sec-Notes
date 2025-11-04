@@ -15,11 +15,14 @@ If your CPU support AES encryption:
 4. Then fill the information boxes, such as common name (i set it to the same as descriptive name), country code, state and city. Then press **Add new CA**
 
 ![](/Images/pfsense_6.png)
+
 6. Press **Add new Certificate**. (This is to create the server certificate).
 7. Then fill in the Descriptive Name and Common Name and press **Create new Certificate**
+
 ![](/Images/pfsense_7.png)
-8. Now you need to setup the OpenVPN Server
-9. Set the following settings (pictures below for reference):
+
+9. Now you need to setup the OpenVPN Server
+10. Set the following settings (pictures below for reference):
 	1. Description to what ever you want
 	2. Interface to `WAN`
 	3. Local Port to `1194`
@@ -30,7 +33,7 @@ If your CPU support AES encryption:
 	8. Then press **Next**
 	![](/Images/pfsense_10.png)
 	![](/Images/pfsense_9.png)![](/Images/pfsense_8.png)
-10. Add both Firewall rules and press **Next** then **Finish**
+11. Add both Firewall rules and press **Next** then **Finish**
 ![](/Images/pfsense_11.png)
 # Create User
 Now we need to create a user that can be used to login to the local network remotely

@@ -41,6 +41,8 @@ Information on protocols, VPN, addressing, websites, etc
 * [Routing](/Networking/Routing.md)
 * [TCP & UDP](/Networking/TCP%20%26%20UDP%20Connection.md)
 * [VPN](/Networking/VPN.md)
+### Network Configuration
+- [PfSense VPN](/Networking/pfSense.md)
 
 ## Windows Server (AD)
 * [Windows Server 2022](/Windows%20Server/Windows%20Server%202022.md)

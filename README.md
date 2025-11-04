@@ -60,6 +60,7 @@ Information on protocols, VPN, addressing, websites, etc
 - [Cloud Computing](/Azure/Cloud%20Computing.md)
 - [Cloud Shell](/Azure/Cloud%20Shell.md)
 - [Core Components](/Azure/Core%20Components.md)
+- [Deploy Azure Infrastrucutre](/Azure/Deploy%20Azure%20Infrastructure.md)
 - [Entra ID](/Azure/Entra%ID.md)
 - [Identities](/Azure/Identities.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)

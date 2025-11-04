@@ -1,7 +1,6 @@
 # Cyber-Sec-Notes
 These are notes I have taken while learning cyber security.
-They are not final as I am still copying over some notes from when
-I used notepad...
+These are from multiple resources such as TryHackMe, School and random sites I have found.
 
 ## Alternative notes
 - [OSCP Notes](https://elhacker.info/ebooks%20Joas/OSCP%20NOTES.pdf)

@@ -1,15 +1,6 @@
-## Hybrid Protocol
+# Hybrid Protocol
 A hybrid protocol is a protocol that combines features or techniques from two or more different types of protocols, taking advances of each ones strength.
-## SMB 
-(Uses TCP)
-Server Message Block Protocol (SMB) is a client-server communication protocol 
-used for sharing access to file, printers, serial ports, etc on a network.
-
-Is a response-request protocol, meaning it can transmit multiple messages between
-the client and server to establish a connection.
-
-
-## Internet Control Message Protocol (ICMP)
+# Internet Control Message Protocol (ICMP)
 
 - Usually blocked due to security reasons
 - Available for IPv4 (ICMPv4) and IPv6 (ICMPv6)
@@ -41,39 +32,39 @@ Destination Unreachable codes for ICMPv6:
 	4 - Port unreachable
 
 
-## HTTP/s:
-	- When a URL is typed into a web browser the web browser establishes a connection to a web service
-	- When a client sends request to a web server, HTTP specifies the message type for the communication
-	- GET: Request Data
-	- POST: Uploads data files
-	- PUT: Uploads resources
+# HTTP/s:
+- When a URL is typed into a web browser the web browser establishes a connection to a web service
+- When a client sends request to a web server, HTTP specifies the message type for the communication
+- GET: Request Data
+- POST: Uploads data files
+- PUT: Uploads resources
 
-## Email:
-### SMTP:
-		- Require header and body message
-		- When client sends email client SMTP is connected with server SMTP on port 25.
-		- After the connection is made the client attempts to send email to the server
-		- When the server receives the message it either places the message in a local account or
-			forwards the message to another mail server for delivery
-		- If dst server unavailable SMTP spools messages to be sent at a later time.
-		- The server checks this queue and attempts to send again
-		- If unavailable to send after a predetermined time it is returned as undeliverable
-### POP:
-		- Application used to retrieve mail from mail server
-		- When mail is downloaded from the server to the client it is deleted from the server
-		- server starts POP service by listening on TCP port 110 for client connection requests
-		- When connection is established the POP sends a greeting and the client exchanges commands
-			and responses
-		- POP does not store messages so it can not have backups
-### IMAP:
-		- Method to retrieve email messages
-		- Copies of messages are downloaded to client application
+# Email:
+## SMTP:
+- Require header and body message
+- When client sends email client SMTP is connected with server SMTP on port 25.
+- After the connection is made the client attempts to send email to the server
+- When the server receives the message it either places the message in a local account or forwards the message to another mail server for delivery
+- If destination server unavailable SMTP spools messages to be sent at a later time.
+- The server checks this queue and attempts to send again
+- If unavailable to send after a predetermined time it is returned as undelivered
+## POP:
+- Application used to retrieve mail from mail server
+- When mail is downloaded from the server to the client it is deleted from the server
+- server starts POP service by listening on TCP port 110 for client connection requests
+- When connection is established the POP sends a greeting and the client exchanges commands and responses
+- POP does not store messages so it can not have backups
+## IMAP:
+- Method to retrieve email messages
+- Copies of messages are downloaded to client application
 
+### Notes
 SMTP functions between the senders device and the receivers mailbox.
 	- Sends email from senders device to receivers mailbox
 POP3 functions between the receiver and receivers mail server
 	- Retrieves and organizes emails from the receivers mail server to the receivers device
 
+# DNS (Dynamic Name System)
 DNS used to convert domain names into IP addresses.
 DNS client service on Win also stores previously resolved names in mem (ipconfig /displaydns)
 To get IP address:
@@ -91,29 +82,30 @@ MX - A mail exchange record
 
 "nslookup" allows users to manually query the name servers to find a host
 
+# DHCP (Dynamic Host Configuration Protocol)
+- Automates the assigned of IPv4 addresses, subnets and gateways
+- The alternative is static addressing
+- When a host connects to a network the DHCP is contacted and a address is requested
+- DHCP server chooses an address from a configured range and leases it to the host
+- Lease period is the amount of time a host can have an IP address
+- When the lease expires the DHCP server gets a DHCPRELEASE message and the address is returned
+[(Learn more)](/Networking/DHCP.md)
 
-Dynamic Host Configuration Protocol (DHCP):
-	- Automates the assigned of IPv4 addresses, subnets and gateways
-	- The alternative is static addressing
-	- When a host connects to a network the DHCP is contacted and a address is requested
-	- DHCP server chooses an address from a configured range and leases it to the host
-	- Lease period is the amount of time a host can have an IP address
-	- When the lease expires the DHCP server gets a DHCPRELEASE message and the address is returned
+# FTP (File Transfer Protocol)
+- Used to transfer files
+- Allows transfer between server and client
+- Port 21 for control traffic
+- Port 20 to transfer data
 
-DHCP Operation:
-	- When the client connects to a network the client broadcasts DHCPDISCOVER message
-	- A DHCP server on the network replies DHCPOFFER which offers a lease to the client
+# SMB (Server Message Block)
+- Client/Server file sharing protocol
+- 3 functions
+	- Start, authenticate and terminate sessions
+	- Control file and printer access
+	- Allow an application to send or receive messages to or from another device
 
-FTP:
-	- Used to transfer files
-	- Allows transfer between server and client
-	- Port 21 for control traffic
-	- Port 20 to transfer data
+- (Uses TCP)
+- Server Message Block Protocol (SMB) is a cliendd t-server communication protocol used for sharing access to file, printers, serial ports, etc on a network.
 
-Server Message Block (SMB):
-	- Client/Server file sharing protocol
-	- 3 functions
-		- Start, authenticate and terminate sessions
-		- Control file and printer access
-		- Allow an application to send or receive messages to or from another device
+- Is a response-request protocol, meaning it can transmit multiple messages between the client and server to establish a connection.
 

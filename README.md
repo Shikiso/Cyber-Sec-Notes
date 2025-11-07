@@ -41,8 +41,6 @@ Information on protocols, VPN, addressing, websites, etc
 * [Routing](/Networking/Routing.md)
 * [TCP & UDP](/Networking/TCP%20%26%20UDP%20Connection.md)
 * [VPN](/Networking/VPN.md)
-### Network Configuration
-- [PfSense VPN](/Networking/PfSense.md)
 
 ## Windows Server (AD)
 * [Windows Server 2022](/Windows%20Server/Windows%20Server%202022.md)
@@ -69,16 +67,19 @@ Information on protocols, VPN, addressing, websites, etc
 - [Policy Initiatives](/Azure/Policy%20Initiatives.md)
 - For powershell commands check out [Windows OS](/Operating%20Systems/Windows.md)
 
-## Tools
-- [NMAP](/Tools/NMAP.md)
-- [Airmon-ng](/Tools/Airmon-ng.md)
-- [Metasploit](/Tools/Metasploit.md)
-- [Wireshark](/Tools/Wireshark.md)
-- [General Tools](/Tools/Smaller%20Tools.md)
-
 ## Reconnaissance
 - [Research - Google Operators, vulnerabilities & exploits](/Reconnaissance/Research.md)
 
 ## Operating Systems
 - [Linux Commands](/Operating%20Systems/Linux.md)
 - [Windows](/Operating%20Systems/Windows.md)
+## Configuration
+- pfSense
+	- [Remote OpevnVPN](/Configuration/pfsense_remote_openvpn.md)
+
+## Tools
+- [NMAP](/Tools/NMAP.md)
+- [Airmon-ng](/Tools/Airmon-ng.md)
+- [Metasploit](/Tools/Metasploit.md)
+- [Wireshark](/Tools/Wireshark.md)
+- [General Tools](/Tools/Smaller%20Tools.md)

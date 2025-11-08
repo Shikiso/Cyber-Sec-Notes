@@ -1,4 +1,4 @@
-# Setting up remote OpenVPN
+# Setting up remote VPN OpenVPN
 If your CPU support AES encryption:
 1. go to **System** > **Advanced** > **Miscellaneous**
 ![](/Images/pfsense_1.png)

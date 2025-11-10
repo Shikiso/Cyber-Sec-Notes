@@ -72,7 +72,7 @@ Connect using openvpn `openvpn ./cert.ovpn`
 2. Load the .ovpn config
 3. connect
 ## Troubleshooting
-- Make sure  to disable **Block private networks and loopback addresses** on the WAN interface
+- If your using a private network as the WAN (using a vm for example) make sure  to disable **Block private networks and loopback addresses** on the WAN interface
 ![](/Images/troubleshoot_2.png)
 - Set network to `Private` on Windows
 

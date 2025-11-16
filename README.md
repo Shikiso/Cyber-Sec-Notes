@@ -17,6 +17,7 @@ These are from multiple resources such as TryHackMe, School and random sites I h
 **Information on frameworks, standards and projects.**
 * [Governance, Risk and Compliance](/Industry/GRC.md)
 * [Project Management](/Industry/Project%20Management.md)
+* [C.I.A Triad](/Industry/C.I.A%20Triad.md)
 
 ## Network
 **Information on protocols, VPN, addressing, websites, etc.**
@@ -93,6 +94,7 @@ These are from multiple resources such as TryHackMe, School and random sites I h
 ## Reconnaissance
 **Ways to get information on organizations or people**
 - [Research - Google Operators, vulnerabilities & exploits](/Reconnaissance/Research.md)
+- [Steps for gathering information](/Reconnaissance/Gathering%20Information.md)
 
 ## Exploitation
 **Tools and methods of exploitation**
@@ -101,6 +103,7 @@ These are from multiple resources such as TryHackMe, School and random sites I h
 ## Operating Systems
 **Utility tools and commands to use OS fully**
 - [Linux Commands](/Operating%20Systems/Linux.md)
+- [Linux Kernel](/Operating%20Systems/Linux%20Kernal.md)
 - [Windows](/Operating%20Systems/Windows.md)
 ## Configuration
 - pfSense

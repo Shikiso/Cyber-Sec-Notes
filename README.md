@@ -65,7 +65,7 @@ Information on protocols, VPN, addressing, websites, etc
 - [Entra ID](/Azure/Entra%ID.md)
 - [Governance and Compliance Tools](/Azure/Governance%20and%20Compliance%20tools.md)
 - [Identities](/Azure/Identities.md)
-- [Load Balanceer](/Azure/Load%20Balancer)
+- [Load Balanceer](/Azure/Load%20Balancer.md)
 - [Management & Governance](/Azure/Management%20&%20Governance.md)
 - [Managing and Deploying Resources](/Azure/Managing%20and%20Deploying%20Resources.md)
 - [Monitoring Tools](/Azure/Monitoring%20Tools.md)

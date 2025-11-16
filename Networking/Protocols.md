@@ -109,3 +109,20 @@ MX - A mail exchange record
 
 - Is a response-request protocol, meaning it can transmit multiple messages between the client and server to establish a connection.
 
+# TLS (Transport Layer Security)
+A cryptographic protocol that secures communication over networks.
+It ensures data sent is encrypted, authentication and is integrity protected.
+
+## Stages
+### Handshake
+1. **Client Hello** – The client sends supported TLS versions, encryption algorithms, and a random value.
+2. **Server Hello** – The server chooses compatible encryption settings and sends its **digital certificate** (which includes its public key).
+3. **Certificate Verification** – The client checks the certificate’s validity via a trusted Certificate Authority (CA).
+4. **Key Exchange** – Both sides use the public key or Diffie-Hellman methods to securely agree on a **session key**.
+5. **Handshake Complete** – Now both sides share the same secret key but no one else knows it.
+### Data Transfer
+Once the handshake is done:
+- All communication is **encrypted** using symmetric encryption (fast and efficient).
+- Each message includes a **Message Authentication Code (MAC)** to ensure integrity.    
+- If any tampering or corruption occurs, the connection is terminated.
+

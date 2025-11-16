@@ -14,3 +14,17 @@ Private and/or dynamic ports 49152-65535:
 	- Clients OS assign port numbers dynamically when a connection to a service is initialized
 
 Ports on browsers are randomly generated and can not be the same.
+
+| **Protocol** | **Transport Protocol** | **Default Port Number** |
+| ------------ | ---------------------- | ----------------------- |
+| TELNET       | TCP                    | 23                      |
+| DNS          | UDP (can be TCP)       | 53                      |
+| HTTP         | TCP                    | 80                      |
+| HTTPS        | TCP                    | 443                     |
+| FTP          | TCP                    | 21                      |
+| SMTP         | TCP                    | 25                      |
+| POP3         | TCP                    | 110                     |
+| IMAP         | TCP                    | 143                     |
+| SMTPS        | TCP                    | 465 and 587             |
+| POP3S        | TCP                    | 995                     |
+| IMAPS        | TCP                    | 993                     |

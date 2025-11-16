@@ -1,4 +1,3 @@
-
 Logical Link Control takes the network protocol data, (IPv4 or IPv6 packet) and adds layer 2 control
 information to help deliver the packer to the destination.
 ^ in short gives packet IP address to go to

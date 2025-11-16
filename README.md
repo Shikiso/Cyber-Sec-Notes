@@ -7,40 +7,54 @@ These are from multiple resources such as TryHackMe, School and random sites I h
 - [Privilege Escalation](https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html)
 
 ## Data Analysis
+**Methods of searching through or getting data**
 * [Splunk Syntax](/Data%20Analysis/Splunk.md)
 * [SQL - Will add more as I use it more](/Data%20Analysis/SQL.md)
-* [HoneyPots](/Data%Analysis/Honeypots.md)
+	* [SQL Syntax (w3schools)](https://www.w3schools.com/sql/sql_syntax.asp)
+* [HoneyPots](/Data%20Analysis/Honeypots.md)
 
 ## Industry
-Information on frameworks, standards and projects
+**Information on frameworks, standards and projects.**
 * [Governance, Risk and Compliance](/Industry/GRC.md)
 * [Project Management](/Industry/Project%20Management.md)
 
 ## Network
-Information on protocols, VPN, addressing, websites, etc
-* [AAA](/Networking/AAA.md)
-* [ARP](/Networking/ARP.md)
-* [Cisco ISO commands](/Networking/Cisco%20ISO.md)
-* [Cryptography](/Networking/Cryptography.md)
-* [DNS](/Networking/DNS.md)
+**Information on protocols, VPN, addressing, websites, etc.**
+- Commands
+	* [Cisco ISO commands](/Networking/Commands/Cisco%20ISO.md)
+- Cryptography
+	- [Cryptography](/Networking/Cryptography/Cryptography.md)
+	- [Public Keys](/Networking/Cryptography/Public%20Key.md)
+- Frameworks
+	- [Authentication, authorization, and accounting (AAA)](/Netwokring/FrameworksAAA.md)
+	- [IEE](/Networking/Frameworks/IEE.md)
+- OSI & TCP/IP Models
+	- [Data Link | Layer 2](/Networking/OSI%20&%20TCP%20IP/Layer%202%20-%20Data%20Link.md)
+	- [Network | Layer 3](/Networking/OSI%20&%20TCP%20IP/Layer%203%20-%20Network.md)
+	* [OSI + TCP IP Models](/Networking/OSI%20&%20TCP%20IP/OSI%20%26%20TCP%20IP%20Models.md)
+- Protocols & Ports
+	- [ARP](/Networking/Protocols%20&%20Ports/ARP.md)
+	- [DHCP](/Networking/Protocols%20&%20Ports/DHCP.md)
+	- [DNS](Networking/Protocols%20&%20Ports/DNS.md)
+	- [HTTP/s](/Networking/Protocols%20&%20Ports/HTTPS.md)
+	- [Ports](/Networking/Protocols%20&%20Ports/Ports.md)
+	* [Protocols](/Networking/Protocols%20&%20Ports/Protocols.md)
+	* [TCP & UDP](/Networking/TCP%20%26%20UDP%20Connection.md)
+- VPN & IKE
+	* [IPsec](/Networking/VPN/IPSec.md)
+	* [IKE](/Networking/VPN/IKE.md)
+	* [VPN](/Networking/VPN/VPN.md)
+- Scanning
+	- [NMAP](/Networking/Scanning/NMAP.md)
+	- [Airmon-ng](/Networking/Scanning/Airmon-ng.md)
+	- [Wireshark](/Networking/Scanning/Wireshark.md)
+	- [Smaller Tools for recon](/Networking/Scanning/Smaller%20Tools.md)
 * [Definitions](/Networking/Definitions.md)
-* [Data Link | Layer 2](/Networking/Layer%202%20-%20Data%20Link.md)
-* [Firewalls](/Networking/Firewall.md)
-* [HTTP/s](/Networking/HTTPS.md)
-* [IEE](/Networking/IEE.md)
+* [Firewalls](Firewalls.md)
 * [IP Address & Subnets](/Networking/IP%20Addressing%20and%20Subnets.md)
-* [IPsec](/Networking/IPSec.md)
-* [IKE](/Networking/IKE.md)
 * [LAN](/Networking/LAN.md)
-* [Network | Layer 3](/Networking/Layer%203%20-%20Network.md)
-* [OSI + TCP IP Models](/Networking/OSI%20%26%20TCP%20IP%20Models.md)
-* [Ports](/Networking/Ports.md)
-* [Protocols](/Networking/Protocols.md)
 * [Proxies](/Networking/Proxy.md)
-* [Public Keys](/Networking/Public%20Key.md)
 * [Routing](/Networking/Routing.md)
-* [TCP & UDP](/Networking/TCP%20%26%20UDP%20Connection.md)
-* [VPN](/Networking/VPN.md)
 
 ## Windows Server (AD)
 * [Windows Server 2022](/Windows%20Server/Windows%20Server%202022.md)
@@ -77,19 +91,18 @@ Information on protocols, VPN, addressing, websites, etc
 - For powershell commands check out [Windows OS](/Operating%20Systems/Windows.md)
 
 ## Reconnaissance
+**Ways to get information on organizations or people**
 - [Research - Google Operators, vulnerabilities & exploits](/Reconnaissance/Research.md)
 
+## Exploitation
+**Tools and methods of exploitation**
+- [Metasploitable Commands](/Exploitation/Metasploit.md)
+
 ## Operating Systems
+**Utility tools and commands to use OS fully**
 - [Linux Commands](/Operating%20Systems/Linux.md)
 - [Windows](/Operating%20Systems/Windows.md)
 ## Configuration
 - pfSense
 	- [Remote OpevnVPN](/Configuration/pfsense_remote_openvpn.md)
 	- [Site-To-Site IPsec VPN (Not my blog)](https://www.provya.com/blog/pfsense-configuring-a-site-to-site-ipsec-vpn/)
-
-## Tools
-- [NMAP](/Tools/NMAP.md)
-- [Airmon-ng](/Tools/Airmon-ng.md)
-- [Metasploit](/Tools/Metasploit.md)
-- [Wireshark](/Tools/Wireshark.md)
-- [General Tools](/Tools/Smaller%20Tools.md)

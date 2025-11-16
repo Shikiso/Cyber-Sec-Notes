@@ -1,7 +1,7 @@
 # Internet Key Exchange
 The Internet Key Exchange protocol is a key management protocol standard. It is used in conjunction with the IPsec standard. IKE automatically negotiates IPsec security associations and enables IPsec secure communications. IKE enhances IPsec by adding features and simplifies configuration for the IPsec standard.
 
-IKE is a [hybrid protocol](/Networking/Protocols.md) that implements key exchange protocols inside the Internet Security Association Key Management Protocol (ISAKMP) framework.
+IKE is a [hybrid protocol](Protocols.md) that implements key exchange protocols inside the Internet Security Association Key Management Protocol (ISAKMP) framework.
 ISAKMP defines:
 - Message format
 - Mechanic of a key exchange protocol

@@ -71,8 +71,8 @@
 
 5. Click **Add**
 ## Add Network Security Group to subnets
-
 1. Open the **Setting** band and click **Subnets**
+
 ![](/Images/azure_network_interface_4.png)
 
 2. Click **Associate**
@@ -89,6 +89,7 @@
 ![](/Images/azure_network_interface_5.png)
 
 2. Click on the config
+
 ![](/Images/azure_network_interface_6.png)
 
 4. Check **Associate public IP address**

@@ -129,4 +129,5 @@
 ![](/Images/azure_vm_5.png)
 
 5. Select the NIC and click **OK**
-(Can't add more due to administrator limitations)
+
+(Unable to add more due to account limitations)

@@ -12,7 +12,9 @@
 7. Once installation has finished check for a alert on the flag icon and if necessary complete what it is asking. Examples below.
 ## AD DS
 ![](/Images/ADDS_config_help_3.png)
+
 **(Select the deployment operation that applies)**
+
 ![](/Images/ADDS_config_help_4.png)
 ![](/Images/ADDS_config_help_5.png)
 ![](/Images/ADDS_config_help_6.png)

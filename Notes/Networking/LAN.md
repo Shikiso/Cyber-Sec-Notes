@@ -11,7 +11,7 @@ Relies on a single connection which is known as a backbone cable. This one is si
 
 ## Ring Topology
 Devices are connected directly to each other to form a loop, meaning there is little cabling required and less dependence on dedicated hardware such as within a start topology.
-![[Images/star_topology 1.png]]
+![[star_topology 1.png]]
 # Switch
 A switch is a dedicated device within a network that help devices communicate with one another. The devices plug into the switches port via Ethernet cables and using MAC addresses the switch will decide where packets are being sent and forward them to the desired location.
 # Router

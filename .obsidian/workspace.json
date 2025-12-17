@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "3168d85025d01103",
+    "type": "split",
+    "children": [
+      {
+        "id": "39d4c09a502b1f0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153968c8cf43c92a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "594fe103d871d608",
+    "type": "split",
+    "children": [
+      {
+        "id": "18d3d119ec34d4b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8551125f5dd7fe32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "381109cb87b17778",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d1edc0898ff5e946",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e5d3d91a6c30af2",
+    "type": "split",
+    "children": [
+      {
+        "id": "75e931cb2deeb7a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "964fb9188d9095d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "541f7ff686cb91cd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "684daab13890263e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "704611cd5b852ede",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "adcdf1c8bd4bf15b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "153968c8cf43c92a",
+  "lastOpenFiles": [
+    "Configuration/azure_network_infrastructure.md",
+    "Configuration/pfsense_remote_openvpn.md",
+    "Configuration/windows_server_2022.md",
+    "README.md",
+    "Configuration/README.md",
+    "Notes/README.md",
+    "Resources/README.md",
+    "Notes/Cryptography/Public Key.md",
+    "Notes/Cryptography/Cryptography.md",
+    "Notes/Cryptograpghy/Cryptography.md",
+    "Notes/Cryptograpghy",
+    "Notes/Azure/Azure AD.md",
+    "Cryptography/Public Key.md",
+    "Cryptography/Cryptography.md",
+    "Networking/Scanning/NMAP.md",
+    "Networking/Scanning/TCPDump.md",
+    "Networking/Scanning/Wireshark.md"
+  ]
+}

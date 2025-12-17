@@ -42,3 +42,23 @@ Private keys are used to decrypt data
 
 Diffie-Hellman https://www.youtube.com/watch?v=NmM9HA2MQGI&pp=ygUOZGlmZmllLWhlbGxtYW4%3D
 
+# Math
+Cryptography uses mathematics to scramble the text in a specific way.
+Two operations used are XOR and Modulo.
+
+## XOR
+XOR -> exclusive OR
+Compares two bits in binary and returns 1 if the bits are different and 0 if they are the same. (This operating is represented with ⊕ or ^)
+
+|A|B|A ⊕ B|
+|---|---|---|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+## Modulo
+- Commonly written as % or mod.
+- Gets the remainder of a division.
+- X%Y = whats left
+- 5 % 3 = 2
+- Modulo is not reversible

@@ -46,6 +46,7 @@ Some other switches are:
   `--badsum` generates invalid checksum for actions, most TCP/IP stacks will drops this 
   but firewalls may respond automatically.
 
+Timing templates allow you to control how fast the scan runs. -T0-5, 5 being the most aggressive.
 To avoid IDS alerts consider `-T0` or `-T1`.
 Theses scan one port at a time and wait 5 min between each probe.
 

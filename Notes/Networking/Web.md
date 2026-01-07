@@ -74,7 +74,9 @@ Most common being:
 - Internal Server Error 500
 
 When a web server responds to a HTTP request is includes HTTP response headers. Which provides important information about the response and tell the client how to handle it.
+
 ![](/Images/http_response.png)
+
 Some response headers are required such as:
 - Date
 - Content-Type

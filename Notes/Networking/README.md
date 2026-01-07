@@ -1,9 +1,8 @@
-# Data Analysis
+# Data
 **Methods of searching through or getting data**
-* [Splunk Syntax](/Notes/Data%20Analysis/Splunk.md)
-* [SQL - Will add more as I use it more](/Notes/Data%20Analysis/SQL.md)
-	* [SQL Syntax (w3schools)](https://www.w3schools.com/sql/sql_syntax.asp)
-* [HoneyPots](/Notes/Data%20Analysis/Honeypots.md)
+* [Splunk Syntax](/Notes/Data/Splunk.md)
+* [Databases](/Notes/Data/Databases.md)
+* [HoneyPots](/Notes/Data/Honeypots.md)
 
 # Industry
 **Information on frameworks, standards and projects.**
@@ -11,7 +10,7 @@
 * [Project Management](/Notes/Industry/Project%20Management.md)
 * [C.I.A Triad](/Notes/Industry/C.I.A%20Triad.md)
 
-# Network
+# Networking
 **Information on protocols, VPN, addressing, websites, etc.**
 - Commands
 	* [Cisco ISO commands](/Notes/Networking/Commands/Cisco%20ISO.md)
@@ -37,19 +36,15 @@
 	* [IPsec](/Notes/Networking/VPN/IPSec.md)
 	* [IKE](/Notes/Networking/VPN/IKE.md)
 	* [VPN](/Notes/Networking/VPN/VPN.md)
-- Scanning
-	- [NMAP](/Notes/Networking/Scanning/NMAP.md)
-	- [Airmon-ng](/Notes/Networking/Scanning/Airmon-ng.md)
-	- [Wireshark](https://iritt.medium.com/wireshark-the-basics-wireshark-tryhackme-walkthrough-81a83079c121)
-	- [Smaller Tools for recon](/Notes/Networking/Scanning/Smaller%20Tools.md)
 * [Definitions](/Notes/Networking/Definitions.md)
 * [Firewalls](/Notes/Networking/Firewalls.md)
 * [IP Address & Subnets](/Notes/Networking/IP%20Addressing%20and%20Subnets.md)
 * [LAN](/Notes/Networking/LAN.md)
 * [Proxies](/Notes/Networking/Proxy.md)
 * [Routing](/Notes/Networking/Routing.md)
+* [Web](/Notes/Networking/Web.md)
 
-# Windows Server (AD)
+# Windows Server (AD DS)
 * [Windows Server 2022](/Notes/Windows%20Server/Windows%20Server%202022.md)
 * [DHCP](/Notes/Windows%20Server/DHCP.md)
 * [DNS](/Notes/Windows%20Server/DNS.md)
@@ -87,10 +82,6 @@
 **Ways to get information on organizations or people**
 - [Research - Google Operators, vulnerabilities & exploits](/Notes/Reconnaissance/Research.md)
 - [Steps for gathering information](/Notes/Reconnaissance/Gathering%20Information.md)
-
-# Exploitation
-**Tools and methods of exploitation**
-- [Metasploitable Commands](/Notes/Exploitation/Metasploit.md)
 
 # Operating Systems
 **Utility tools and commands to use OS fully**

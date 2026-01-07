@@ -9,8 +9,12 @@ Explanations on how to configure firewalls, VPNs, AD DS, etc.
 These are notes I have taken while learning cyber security.
 These are from multiple resources such as TryHackMe, School and random sites I have found.
 Some links go directly to sites.
-[Notes](/Notes/README.md)
+[Notes](Notes/Networking/README.md)
 
 # Resources
-Resources I have found online that seem useful or interesting. Mostly found on github or in Discord servers.
+Resources I have found online that seem useful or interesting. Mostly found on GitHub or in Discord servers.
 [Resources](/Resources/README.md)
+
+# Tools
+Tools I have used or seem useful, not every tool has notes on how to use it but websites are supplied to learn. (If you have any useful tools that should be on the list let me know).
+[Tools](/Tools/README.md)

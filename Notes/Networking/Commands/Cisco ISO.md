@@ -2,7 +2,7 @@
 (FOR BOTH SWITCH AND ROUTER UNLESS SAYS OTHERWISE)	
 
 ## Modes
-| Mode           | Command                                                        |
+| **Mode**       | **Command**                                                    |
 | -------------- | -------------------------------------------------------------- |
 | privilege EXEC | enable                                                         |
 | global config  | configure terminal                                             |

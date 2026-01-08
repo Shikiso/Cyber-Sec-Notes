@@ -8,6 +8,7 @@
 	- [Gobuster](https://github.com/OJ/gobuster)
 # Exploitation
  - [Metasploit](/Tools/Exploitation/Metasploit.md)
+ - [SQLMAP](https://github.com/sqlmapproject/sqlmap/wiki/Introduction)
 # Password Cracking
 - **Offline**
 	- [John the Ripper](https://github.com/openwall/john)

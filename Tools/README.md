@@ -1,7 +1,7 @@
 # Scanning
 - **Networks**
-	- [NMAP](NMAP.md)
-	- [Airmon-ng](Airmon-ng.md)
+	- [NMAP](/Tools/Scanning/NMAP.md)
+	- [Airmon-ng](/Tools/Scanning/Airmon-ng.md)
 	- [TCPDump]()
 	- [Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)
 - **Websites**

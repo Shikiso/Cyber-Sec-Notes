@@ -1,4 +1,4 @@
-## Configuration
+# Configuration
 - pfSense
 	- [Remote OpevnVPN](/Configuration/pfsense_remote_openvpn.md)
 	- [Site-To-Site IPsec VPN (Not my blog)](https://www.provya.com/blog/pfsense-configuring-a-site-to-site-ipsec-vpn/)

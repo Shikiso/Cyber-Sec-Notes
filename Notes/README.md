@@ -38,7 +38,7 @@
 	* [VPN](/Notes/Networking/VPN/VPN.md)
 * [Definitions](/Notes/Networking/Definitions.md)
 * [Firewalls](/Notes/Networking/Firewalls.md)
-* [IP Address & Subnets](/Notes/Networking/IP%20Addressing%20and%20Subnets.md)
+* [IP Address & Subnets](Addressing.md)
 * [LAN](/Notes/Networking/LAN.md)
 * [Proxies](/Notes/Networking/Proxy.md)
 * [Routing](/Notes/Networking/Routing.md)

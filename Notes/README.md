@@ -1,3 +1,4 @@
+[Computer Hardware](/Notes/Basic/Computer%20Hardware.md)
 # Data
 **Methods of searching through or getting data**
 * [Splunk Syntax](/Notes/Data/Splunk.md)
@@ -88,3 +89,9 @@
 - [Linux Commands](/Notes/Operating%20Systems/Linux.md)
 - [Linux Kernel](/Notes/Operating%20Systems/Linux%20Kernal.md)
 - [Windows](/Notes/Operating%20Systems/Windows.md)
+
+# Blue Team
+- [Digital Forensics](/Notes/Blue%20Team/Digital%20Forensics.md)
+- [Incident Response](Notes/Blue%20Team/Incident%20Response.md)
+- [Logs](Notes/Blue%20Team/Logs.md)
+- [Security Operations Center](Notes/Blue%20Team/SOC.md)

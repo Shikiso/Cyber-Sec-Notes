@@ -1,4 +1,5 @@
-[Computer Hardware](/Notes/Basic/Computer%20Hardware.md)
+# Basics
+- [Computer Hardware](/Notes/Basic/Computer%20Hardware.md)
 # Data
 **Methods of searching through or getting data**
 * [Splunk Syntax](/Notes/Data/Splunk.md)

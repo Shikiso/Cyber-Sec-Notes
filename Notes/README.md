@@ -18,12 +18,12 @@
 	- [Cryptography](/Notes/Cryptography/Cryptography.md)
 	- [Public Keys](/Notes/Cryptography/Public%20Key.md)
 - Frameworks
-	- [Authentication, authorization, and accounting (AAA)](/Notes/Netwokring/FrameworksAAA.md)
+	- [Authentication, authorization, and accounting (AAA)](/Notes/Networking/Frameworks/AAA.md)
 	- [IEE](/Notes/Networking/Frameworks/IEE.md)
 - OSI & TCP/IP Models
 	- [Data Link | Layer 2](/Notes/Networking/OSI%20&%20TCP%20IP/Layer%202%20-%20Data%20Link.md)
 	- [Network | Layer 3](/Notes/Networking/OSI%20&%20TCP%20IP/Layer%203%20-%20Network.md)
-	* [OSI + TCP IP Models](/Notes/Networking/OSI%20&%20TCP%20IP/OSI%20%26%20TCP%20IP%20Models.md)
+	* [OSI + TCP IP Models](/Notes/Networking/OSI%20&%20TCP%20IP/OSI%20&%20TCP%20IP%20Models.md)
 - Protocols & Ports
 	- [ARP](/Notes/Networking/Protocols%20&%20Ports/ARP.md)
 	- [DHCP](/Notes/Networking/Protocols%20&%20Ports/DHCP.md)
@@ -31,7 +31,7 @@
 	- [HTTP/s](/Notes/Networking/Protocols%20&%20Ports/HTTPS.md)
 	- [Ports](/Notes/Networking/Protocols%20&%20Ports/Ports.md)
 	* [Protocols](/Notes/Networking/Protocols%20&%20Ports/Protocols.md)
-	* [TCP & UDP](/Notes/Networking/TCP%20%26%20UDP%20Connection.md)
+	* [TCP & UDP](/Notes/Networking/Protocols%20&%20Ports/TCP%20&%20UDP%20Connection.md)
 - VPN & IKE
 	* [IPsec](/Notes/Networking/VPN/IPSec.md)
 	* [IKE](/Notes/Networking/VPN/IKE.md)

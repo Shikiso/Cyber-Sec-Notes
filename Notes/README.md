@@ -93,6 +93,6 @@
 
 # Blue Team
 - [Digital Forensics](/Notes/Blue%20Team/Digital%20Forensics.md)
-- [Incident Response](Notes/Blue%20Team/Incident%20Response.md)
-- [Logs](Notes/Blue%20Team/Logs.md)
-- [Security Operations Center](Notes/Blue%20Team/SOC.md)
+- [Incident Response](/Notes/Blue%20Team/Incident%20Response.md)
+- [Logs](/Notes/Blue%20Team/Logs.md)
+- [Security Operations Center](/Notes/Blue%20Team/SOC.md)

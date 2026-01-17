@@ -96,3 +96,6 @@
 - [Incident Response](/Notes/Blue%20Team/Incident%20Response.md)
 - [Logs](/Notes/Blue%20Team/Logs.md)
 - [Security Operations Center](/Notes/Blue%20Team/SOC.md)
+- [SIEM](/Notes/Blue%20Team/SIEM.md)
+- [Vulnerability Scanning](/Notes/Blue%20Team/Vulnerability%20Scanning.md)
+- [Intrusion Detection System (IDS)](/Notes/Blue%20Team/IDS.md)

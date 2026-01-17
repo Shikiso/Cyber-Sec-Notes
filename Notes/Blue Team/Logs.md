@@ -25,3 +25,9 @@ Some of the crucial types of logs stored in a Windows Operating System are:
 - **Security:** This is the most important log file in Windows OS in terms of security
 
 To view these logs on a Windows Operating System use the **Event Viewer**.
+# Linux Logs
+Linux stores all the related logs in `/var/log/`. Storing logs such as:
+- /var/log/httpd: Contains HTTP Request  / Response and error logs.
+- /var/log/cron: Events related to cron jobs are stored in this location.
+- /var/log/auth.log and /var/log/secure: Stores authentication-related logs.
+- /var/log/kern: This file stores kernel-related events.

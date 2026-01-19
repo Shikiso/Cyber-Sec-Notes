@@ -42,7 +42,7 @@ Entra ID is best at providing directory services; storing and publishing user, d
 When deploying cloud services you need to have directory services in the cloud to provide authentication and authorization for these services. Because of this each service that needs authentication will create its own Entra tenant.
 
 # Domain Services
-When switching from AD DS to Azure you need to implement a [site-to-site VPN](VPN.md) between your local infrastructure and the Azure IaaS.
+When switching from AD DS to Azure you need to implement a site-to-site VPN between your local infrastructure and the Azure IaaS.
 
 Because of this Entra Domain Services is provides as an alternative. This service provides domain services such as Group Policy management, domain joining and Kerbose authentication to Entra tenants.
 

@@ -72,7 +72,7 @@
 - [Core Components](/Notes/Azure/Core%20Components.md)
 - [Cost Factors](/Notes/Azure/Cost%20Factors.md)
 - [Deploy Azure Infrastrucutre](/Notes/Azure/Deploy%20Azure%20Infrastructure.md)
-- [Entra ID](/Notes/Azure/Entra%ID.md)
+- [Entra ID](/Notes/Azure/Entra%20ID.md)
 - [Governance and Compliance Tools](/Notes/Azure/Governance%20and%20Compliance%20tools.md)
 - [Identities](/Notes/Azure/Identities.md)
 - [Load Balanceer](/Notes/Azure/Load%20Balancer.md)

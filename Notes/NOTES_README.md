@@ -14,7 +14,7 @@
 * [DAD](/Notes/Industry/DAD.md)
 * [GRC](/Notes/Industry/GRC.md)
 * [Security Models](/Notes/Industry/Security%20Models.md)
-* [ISO/IEC 19249](/Notes/Industry/ISO_IEC%2019249)
+* [ISO/IEC 19249](/Notes/Industry/ISO_IEC%2019249.md)
 
 # Networking
 **Information on protocols, VPN, addressing, websites, etc.**
@@ -42,9 +42,11 @@
 	* [IPsec](/Notes/Networking/VPN/IPSec.md)
 	* [IKE](/Notes/Networking/VPN/IKE.md)
 	* [VPN](/Notes/Networking/VPN/VPN.md)
+- [Connection Types](/Notes/Networking/Connection%20Types.md)
 * [Definitions](/Notes/Networking/Definitions.md)
 * [Firewalls](/Notes/Networking/Firewalls.md)
-* [IP Address & Subnets](Addressing.md)
+* [IP Addressing](/Notes/Networking/Addressing.md)
+* [Subnetting](/Notes/Networking/Subnetting.md)
 * [LAN](/Notes/Networking/LAN.md)
 * [Proxies](/Notes/Networking/Proxy.md)
 * [Routing](/Notes/Networking/Routing.md)
@@ -82,6 +84,7 @@
 - [Storage Security](/Notes/Azure/Storage%20Security.md)
 - [Storage](/Notes/Azure/Storage.md)
 - [Virtual Networks](/Notes/Azure/Virtual%20Networks.md)
+- [Virtual Machines](/Notes/Azure/Virtual%20Machines.md)
 - For powershell commands check out [Windows OS](/Notes/Operating%20Systems/Windows.md)
 
 # Reconnaissance
@@ -94,6 +97,8 @@
 - [Linux Commands](/Notes/Operating%20Systems/Linux.md)
 - [Linux Kernel](/Notes/Operating%20Systems/Linux%20Kernal.md)
 - [Windows](/Notes/Operating%20Systems/Windows.md)
+- [Shells](/Notes/Operating%20Systems/Shells.md)
+- [Troubleshooting](/Notes/Operating%20Systems/Troubleshooting.md)
 
 # Blue Team
 - [Digital Forensics](/Notes/Blue%20Team/Digital%20Forensics.md)

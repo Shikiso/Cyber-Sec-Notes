@@ -48,10 +48,6 @@ Provide an environment for building, testing and deploying software applications
 
 ## Software as a Service (SaaS)
 Users connect to and use cloud-based apps over the internet: for example, Microsoft Office 365, email and calendars.
-
-## Shared Responsibility Model
-![[/shared_responsibility_model.png]]
-
 # Cloud Service Comparison
 | IaaS                                                        | PaaS                                                  | SaaS                                                         |
 | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |

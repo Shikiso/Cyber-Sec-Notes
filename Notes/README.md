@@ -11,6 +11,10 @@
 * [Governance, Risk and Compliance](/Notes/Industry/GRC.md)
 * [Project Management](/Notes/Industry/Project%20Management.md)
 * [C.I.A Triad](/Notes/Industry/C.I.A%20Triad.md)
+* [DAD](/Notes/Industry/DAD.md)
+* [GRC](/Notes/Industry/GRC.md)
+* [Security Models](/Notes/Industry/Security%20Models.md)
+* [ISO/IEC 19249](/Notes/Industry/ISO_IEC%2019249)
 
 # Networking
 **Information on protocols, VPN, addressing, websites, etc.**

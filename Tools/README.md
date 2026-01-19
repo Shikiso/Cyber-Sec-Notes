@@ -33,3 +33,11 @@
 	- [OPNsense](https://opnsense.org/)
 - **IDS/IPS**
 	- [Snort](https://www.snort.org/)
+# Cryptography
+- [CyberChef](https://cyberchef.io/)
+# Analysis
+- **Static**
+	- [CAPA](/Tools/Analysis/CAPA.md)
+- **Dynamic**
+	- [REMnux VM](/Tools/Analysis/REMnuxVM.md)
+	- [FlareVM](/Tools/Analysis/FlareVM.md)

@@ -19,7 +19,7 @@
 # Networking
 **Information on protocols, VPN, addressing, websites, etc.**
 - Commands
-	* [Cisco ISO commands](/Notes/Networking/Commands/Cisco%20ISO.md)
+	* [Cisco ISO commands](Cisco%20ISO.md)
 - Cryptography
 	- [Cryptography](/Notes/Cryptography/Cryptography.md)
 	- [Public Keys](/Notes/Cryptography/Public%20Key.md)

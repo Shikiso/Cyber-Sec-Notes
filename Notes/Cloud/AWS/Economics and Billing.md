@@ -32,6 +32,53 @@ With AWS you can get volume-based discounts and realize important savings as you
 - AWS passing savings from economies of scale to you
 - Feature higher-performance resources replace current resources for no extra charge
 
-## Custom Pricing
+**Custom pricing**
 - Meet varying needs through custom pricing
 - Available for high-volume projects with unique requirements
+
+**AWS Free tier**
+Enabled you to gain free hands-on experience with the AWS platform, products and services. Free for 1 year for new customers
+
+**Services with no charge**
+AWS provides a variety of services for no additional charge.
+- Amazon Virtual Private Cloud (Amazon VPC)
+- AWS Identity and Access Management (IAM)
+- Consolidated Billing
+
+# Total Cost of Ownership
+![](/Images/aws_on_premises_vs_cloud.png)
+An on-premises infrastructure is installed locally on a companies own computers and servers. Capital expenses that are associated with the traditional infrastructure are included.
+
+A cloud infrastructure is purchased from a service provider who builds and maintains the facilities, hardware and maintenance staff. Customers pay for what they use. Scaling is simple and costs are easy to estimate.
+
+**Total Cost of Ownership (TCO)** is the financial estimate to help identify direct and indirect costs of a system.
+It is used to compare the costs of running an entire infrastructure environment or specific workload on-premises vs on AWS. As well as to budget and build the business case for moving to the cloud.
+![](/Images/aws_tco_considerations.png)
+## AWS Pricing Calculator
+- Estimates monthly costs
+- Identify opportunities to reduce monthly costs
+- Model your solutions before building them
+- Explore price points band calculations behind your estimate
+- Find the available instance types and contract terms that meet your needs
+- Name your estimate and create and name groups of services
+
+# AWS Organizations
+A free account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
+
+**Benefits:**
+1. Centrally managed access to policies across multiple AWS accounts
+2. Controlled access to AWS services
+3. Automated AWS account creation and management
+4. Consolidated billing across multiple AWS accounts
+
+![](/Images/aws_organization_terminology.png)
+- Root - The organization
+- OU (Organizational Unit) - Container for accounts within root
+## Security
+- Control access with AWS Identity and Access Management (IAM)
+- IAM policies enable you to allow or deny access to AWS services for users, groups and roles
+- Service Control Policies (SCPs) enable you to allow or deny access to AWS services for individuals or group accounts in an organizations unit (OU)
+## Limits
+![](/Images/aws_organizational_limits.png)
+# Billing and Cost Management
+AWS Billing and Cost Management is the service you use to pay your AWS bill, monitor your usage, and budget your costs. 

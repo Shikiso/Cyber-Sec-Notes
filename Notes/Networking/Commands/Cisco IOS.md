@@ -20,9 +20,11 @@
 ## Passwords
 1. **Console**
 	1. `enable`
-	2. `line config console`
-	3. `password {pass}`
-	4. `login`
+	2. `line console 0`
+	3. `logging synchonous` (OPTIONAL - Stops logs during remote sessions)
+	4. `exec-timeout {min} {sec}` (OPTIONAL - Sets time to logout user)
+	5. `password {pass}`
+	6. `login`
 2. **Privilege EXEC**
 	1. `enable`
 	2. `configure terminal`
@@ -80,6 +82,20 @@
 6. **Applying**
 	1. `interface {num}`/`line vty {num}`
 	2. `ip access-{class/group} {name} {in/out}`
+## Credentials
+1. `enable`
+2. `configure terminal`
+3. `username {name} privilege {1-15} secret {password}`
+## Fully Qualified Domain Name (FQDN)
+1. `enable`
+2. `configure terminal`
+3. `hostname {name}`
+4. `ip domain-name {domain name}`
+## Create Crypto Key
+1. `enable`
+2. `configure terminal`
+3. `crypto key generate rsa general-keys modulus {size}`
+4. `ip ssh version 2`
 # Configuration
 ## Save
 1. `enable`
@@ -119,6 +135,15 @@
 1. `enable`
 2. `interface {interface}`
 3. `no ipv6 address {address}/{prefix}`
+
+## Configure VTY Session
+1. `enable`
+2. `configure terminal`
+3. `line vty 0 15` (All lines)
+4. `login local` (Ask for username + password)
+5. `transport input ssh/telnet` (What the session is using)
+6. `logging synchronous` (Removes logs during session)
+7. `exe-timeout {min} {sec}`
 
 ## MAC Table
 1. **Show**
@@ -232,3 +257,11 @@
 2. `login authentication <default/SSH-METHOD>`
 ## Apply max limit for pass
 1. `aaa local authentication attempts max-fail <amount>`
+
+# IEE Auto-Negotiation
+1. `enable`
+2. `configure terminal`
+3. `interface {int}`
+4. `speed auto/{num}`
+5. `duplex auto/full/half`
+6. `exit`

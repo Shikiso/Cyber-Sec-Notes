@@ -19,3 +19,19 @@ Three primary ways in which organizations ensure the integrity of their data are
 
 # Availability
 Ensure resources you want available are available and can be used in a efficient manner without compromising the security.
+
+# Other
+Elements that directly support the same goal as the CIA triad.
+## Identification
+Using some kind of identifier such as a username or password or a smart card to access a system.
+Providing user credentials is known as identification and is the first step in authentication.
+## Authentication
+Once credentials have been provided they must be authenticated. So that we know the person is who they say they are. Credentials must be validated by what ever system is in place such as comparing the hash of two passwords.
+## Authorization
+Even if you have be identified and authenticated, you may not have full access to a system. This is because you do not have authorization for certain tasks. Authorization is the process of granting users  or entities that appropriate permissions, right and privileges to the system.
+## Auditing and Accountability
+Even when users are authenticated they may still try to access parts of a system they do not have permission to access. Administrators want to know when these incidents occur since they could be related to potential attempts at privilege escalation. Auditing is implementing recordings of the users or other entities actions when interacting with the system or data.
+
+Accountability is the process of holding users accountable for their actions. Deterring honest users from committing security policy violations and punishing users who disregard these policies.
+## Non-repudiation
+Non-repudiation means that users cannot deny that they have performed an action with no regard to the system or data. It is the function of auditing and accountability since it allows security admins to not only detect when unauthorized actions have occurred but to trace those actions back to an individual.

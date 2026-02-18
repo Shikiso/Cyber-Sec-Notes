@@ -13,8 +13,12 @@
 * [C.I.A Triad](/Notes/Industry/C.I.A%20Triad.md)
 * [DAD](/Notes/Industry/DAD.md)
 * [GRC](/Notes/Industry/GRC.md)
-* [Security Models](/Notes/Industry/Security%20Models.md)
+* [Intellectual Property and Ethics](/Notes/Industry/Intellectual%20Property%20and%20Ethics.md)
 * [ISO/IEC 19249](/Notes/Industry/ISO_IEC%2019249.md)
+* [Organisational Policy and Industry Standards](/Notes/Industry/Organisational%20Policy%20and%20Industry%20Standards.md)
+* [Project Management](/Notes/Industry/Project%20Management.md)
+* [Security Concepts](/Notes/Industry/Security%20Concepts.md)
+* [Security Models](/Notes/Industry/Security%20Models.md)
 
 # Networking
 **Information on protocols, VPN, addressing, websites, etc.**

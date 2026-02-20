@@ -2,7 +2,7 @@
 - Most common
 - What users can and cannot do with regard to organizational computing assets such as computers, data, network connections and internet.
 # Data Sensitivity and Classification Policy
-- States what the levels are, what protections are required for them an4d under what circumstances these sensitivity labels must be used.
+- States what the levels are, what protections are required for them and under what circumstances these sensitivity labels must be used.
 # Access Control Policy
 - Organizations requirements for accessing systems and data
 - May state the different data sensitivity levels and describe access requirements for each

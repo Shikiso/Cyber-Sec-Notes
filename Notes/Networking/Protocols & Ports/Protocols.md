@@ -89,7 +89,7 @@ MX - A mail exchange record
 - DHCP server chooses an address from a configured range and leases it to the host
 - Lease period is the amount of time a host can have an IP address
 - When the lease expires the DHCP server gets a DHCPRELEASE message and the address is returned
-[(Learn more)](Networking/Protocols%20&%20Ports/DHCP.md)
+[(Learn more)](Notes/Networking/Protocols%20&%20Ports/DHCP.md)
 
 # FTP (File Transfer Protocol)
 - Used to transfer files

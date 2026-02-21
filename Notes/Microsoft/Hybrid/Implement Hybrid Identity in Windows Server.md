@@ -1,6 +1,5 @@
-# Implement Hybrid Identity
-## Microsoft Entra ID Integration
-### Select a Microsoft Entra ID integration model
+# Microsoft Entra ID Integration
+## Select a Microsoft Entra ID integration model
 Entra ID is part of the platform as a service (PaaS) offering and operates as a Microsoft-manged directory service in the cloud.
 - Cloud-native and hybrid identity
 - Users, Groups, devices management
@@ -26,7 +25,7 @@ Entra ID is part of the platform as a service (PaaS) offering and operates as a 
 ![](/Images/password_hash_sync.png)
 ![](/Images/pass_through_authentication.png)
 ![](/Images/federated_authentication.png)
-### Plan for Microsoft Entra ID integration
+## Plan for Microsoft Entra ID integration
 - By using directory synchronization you can connect your on-premises AD DS with Entra ID
 - Directory synchronization enables synchronization between on-premises AD DS and Entra ID for users, groups and contacts
 
@@ -47,7 +46,7 @@ Benefits of using Cloud Sync:
 - Manged from Entra ID
 - Data stored in Entra ID
 - Helps sync Entra ID to AD DS
-## Directory  Synchronization with Microsoft Entra Connect
+# Directory  Synchronization with Microsoft Entra Connect
 **Pre-deployment checks:**
 1. Analyzing on-prem environment for invalid characters in AD DS object attributes and incorrect UPNs
 2. Perform domain email discovery and user counts
@@ -62,7 +61,7 @@ Benefits of using Cloud Sync:
 - IdFix Tools - Object synchronization errors
 - ADModify.NET tool - Changes to multiple objects or bulk edits using powershell
 
-### Install and Configure Directory Synchronization with Entra Connect
+## Install and Configure Directory Synchronization with Entra Connect
 Requires a domain-joined computer to host the synchronization service.
 
 **Requirements:**
@@ -80,7 +79,7 @@ Requires a domain-joined computer to host the synchronization service.
 4. Enable optional features such as password hash sync, password writeback and exchange hybrid deployment
 5. Run Microsoft Entra Connect and let it configure the environment for directory synchronization
 6. Validate the synchronization results
-## Implement Seamless Sign-on (SSO)
+# Implement Seamless Sign-on (SSO)
 Technology that works with AD FS (Federation Services) or with pass-through authentication
 
 **Supported scenarios for pass-through authentication**
@@ -90,7 +89,7 @@ Microsoft Entra pass-through authentication helps ensure that services which rel
 - Uses a component called Authentication Agent to authenticate users
 - Microsoft Entra Connect installs the Authentication Agent during configuration
 - After installation the Authentication Agent registers itself in your Microsoft 365 tenants Microsoft Entra ID
-## Microsoft Entra Domain Services
+# Microsoft Entra Domain Services
 Provides domain services such as Group Policy management, domain joining and kerberos authentication to your Microsoft Entra tenant.
 These services are fully compatible with on-premises AD DS.
 
@@ -105,7 +104,7 @@ These services are fully compatible with on-premises AD DS.
 - Domain Services uses a built-in GPO each for the users and computers containers
 - Domain Services support the base Active Directory computer object schema
 - You cant change passwords directly in a Domain Services-managed domain
-### Implement Domain Services
+## Implement Domain Services
 To implement, configure and use Domain Services you must:
 - Have a Microsoft Entra Tenant created on a Entra ID subscription
 - Have password hash synchronization deployed with Microsoft Entra Connect
@@ -118,22 +117,3 @@ You must select a VNet to which you will connect this service.
 During provisioning Domain Services create two enterprise applications in your Microsoft Entra tenant:
 - Domain Controller Services
 - AzureActiveDirectoryDomainControllerServices
-## Mange Windows Server in a Microsoft Entra Domain Services environment
-**Administrators can perform:**
-- Configure the built-in GPO for the containers AADDC Computers and AADDC Users, in the managed domain​
-- Administer DNS on the managed domain​
-- Create and administer custom OUs on the managed domain​
-- Gain administrative access to computers joined to the managed domain
-
-**Cannot perform:**
-- Extend the schema of the managed domain​
-- Connect to domain controllers for the managed domain using Remote Desktop​
-- Add domain controllers to the managed domain​
-- Employ Domain Administrator or Enterprise Administrator privileges for the managed domain
-
-**Enable user accounts for Domain Services**
-- To authenticate users on the managed domain, Domain Services needs password hashes in a format that’s suitable for NTLM and Kerberos authentication.​
-- Once appropriately configured, the usable password hashes are stored in the Microsoft Entra Domain Services managed domain.​
-- Synchronized credential information in Microsoft Entra ID can’t be re-used if you later create a Domain Services–managed domain.​
-- The steps to generate and store these password hashes are different for cloud-only user accounts created in Microsoft Entra ID versus user accounts that are synchronized from your​  on-premises directory using Microsoft Entra Connect.​
-- For cloud-only user accounts, users must change their passwords before they can use Domain Services.​

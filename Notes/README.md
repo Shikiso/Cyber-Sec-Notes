@@ -91,7 +91,12 @@
 	- [Virtual Machines](/Notes/Microsoft/Azure/Virtual%20Machines.md)
 	- For powershell commands check out [Windows OS](/Notes/Operating%20Systems/Windows.md)
 - Hybrid
-	- [Hybrid Core Infrastructure](/Notes/Microsoft/Hybrid/Hybrid%20Core%20Infrastructure.md)
+	- [Administer and Manage Windows Server IaaS Virtual Machines Remotely](/Notes/Microsoft/Hybrid/Administer%20and%20Manager%20Windows%20Server%20IaaS%20virtual%20machines%20remotely.md)
+	- [Implement Hybrid Identity in Windows Server](/Notes/Microsoft/Hybrid/Implement%20Hybrid%20Identity%20in%20Windows%20Server.md)
+	- [Manage Hybrid Workloads with Azure Arc](/Notes/Microsoft/Hybrid/Manage%20Hybrid%20Workloads%20with%20Azure%20Arc.md)
+	- [Mange Windows Server in a Microsoft Entra](/Notes/Microsoft/Hybrid/Mange%20Windows%20Server%20in%20a%20Microsoft%20Entra.md)
+	- [Perform Windows Secure Server Administration](/Notes/Microsoft/Hybrid/Perform%20Windows%20Secure%20Server%20Administration.md)
+	- [Windows Server Administration Tools](/Notes/Microsoft/Hybrid/Windows%20Server%20Administrator%20Tools.md)
 
 # AWS
 - [Introduction](/Notes/AWS/Introduction.md)
